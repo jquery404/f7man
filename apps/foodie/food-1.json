@@ -1,0 +1,24 @@
+{
+    "record": [
+      {
+        "cat_id": 1,
+        "cat_title": "Kilsds",
+        "id": 1,
+        "title": "Sad",
+        "price": 107.87,
+        "description": "Sad op it",
+        "thumb": "https://via.placeholder.com/150/FFFF00/000000"
+      },
+      {
+        "cat_id": 1,
+        "cat_title": "iip",
+        "id": 2,
+        "title": "up Sad",
+        "price": 107.87,
+        "description": "Sad oop uyiii",
+        "thumb": "https://via.placeholder.com/468x200"
+      }
+    ]
+  }
+  
+  
