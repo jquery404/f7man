@@ -2,13 +2,28 @@
   "record": [
     {
       "id": 1,
-      "title": "Kilsds",
-      "thumb": "https://via.placeholder.com/150/0000FF/808080"
+      "title": "Beef",
+      "thumb": "https://main.dqbqn5szb1e5i.amplifyapp.com/apps/foodie/img/beef/beef1.jpg"
     },
     {
       "id": 2,
-      "title": "Sad",
-      "thumb": "https://via.placeholder.com/150/FFFF00/000000"
+      "title": "lamb",
+      "thumb": "https://main.dqbqn5szb1e5i.amplifyapp.com/apps/foodie/img/lamb/lamb1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "vegetable",
+      "thumb": "https://main.dqbqn5szb1e5i.amplifyapp.com/apps/foodie/img/vegetable/vegetable1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "chicken",
+      "thumb": "https://main.dqbqn5szb1e5i.amplifyapp.com/apps/foodie/img/chicken/chicken1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "fish",
+      "thumb": "https://main.dqbqn5szb1e5i.amplifyapp.com/apps/foodie/img/fish/fish1.jpg"
     }
   ]
 }
