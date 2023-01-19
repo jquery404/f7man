@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-f7man-dev-60200-authRole",
+      "UnauthRoleArn": "arn:aws:iam::474014246112:role/amplify-f7man-dev-60200-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::474014246112:role/amplify-f7man-dev-60200-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-f7man-dev-60200-deployment",
+      "UnauthRoleName": "amplify-f7man-dev-60200-unauthRole",
+      "StackName": "amplify-f7man-dev-60200",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:474014246112:stack/amplify-f7man-dev-60200/d5887b30-9751-11ed-9562-0a4de338d749",
+      "AmplifyAppId": "d3k4xctc06xt7i"
+    },
+    "categories": {
+      "function": {
+        "foodFunc": {
+          "deploymentBucketName": "amplify-f7man-dev-60200-deployment",
+          "s3Key": "amplify-builds/foodFunc-504b676766436b5a4c4e-build.zip"
+        }
+      },
+      "api": {
+        "foodapi": {}
+      }
+    }
+  }
+}

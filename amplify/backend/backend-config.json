@@ -1,0 +1,43 @@
+{
+  "api": {
+    "foodapi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "foodFunc"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "foodFunc": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_foodFunc_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "foodFunc"
+        }
+      ]
+    },
+    "AMPLIFY_function_foodFunc_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "foodFunc"
+        }
+      ]
+    }
+  }
+}
