@@ -728,23 +728,6 @@ p {
  .imgslider img:nth-of-type(3) {
     animation-delay: 0s;
  }
-
- .exp-moto span{
-    animation-name: imgslider-crossfade;
-    opacity: 0;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 12s;
- }
-.exp-moto span:nth-of-type(1) {
-    animation-delay: 8s;
- }
-.exp-moto span:nth-of-type(2) {
-    animation-delay: 4s;
- }
-.exp-moto span:nth-of-type(3) {
-    animation-delay: 0s;
- }
  
  @keyframes imgslider-crossfade {
    0% {
@@ -763,6 +746,41 @@ p {
      opacity:1;
    }
  }
+
+.exp-moto span{
+    animation-name: textslider-crossfade;
+    opacity: .2;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+}
+.exp-moto span:nth-of-type(1) {
+    animation-delay: 8s;
+}
+.exp-moto span:nth-of-type(2) {
+    animation-delay: 4s;
+}
+.exp-moto span:nth-of-type(3) {
+    animation-delay: 0s;
+}
+
+@keyframes textslider-crossfade {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0.2;
+    }
+    92% {
+      opacity:0.2;
+    }
+    100% {
+      opacity:1;
+    }
+}
 
 /* --------------------------
 :: 4.0 Special Area CSS

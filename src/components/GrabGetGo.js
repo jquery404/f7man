@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function GrabGetGo() {
 
     const heading = ['Enterprise Application', 'Brands & Corporations', 'Web & Mobile Application']
+
+    useEffect(()=>{
+        document.title = "GrabGetGo | Turning your concept into creation";
+    }, []);
 
     return (
         <>
@@ -117,7 +121,7 @@ export default function GrabGetGo() {
                     <div className="motoarea col-sm-12 col-md-6">
                         <div className="wellcome-heading">
                             <h1>Turning your concept into creation</h1>
-                            <h5 className="mb-5">We build custom software for your <br/><b className="exp-moto"><span>{heading[0]}</span><span>{heading[1]}</span><span>{heading[2]}</span></b></h5>
+                            <h5 className="mb-5">We build custom software for your <br/><b className="exp-moto"><span>{heading[1]}</span>&nbsp;<span>{heading[2]}</span>&nbsp;<span>{heading[0]}</span></b></h5>
                             <div className="get-start-area">
                                 <a className="btn start-btn wow fadeIn animated start-btn-animated" data-wow-duration="1s" data-wow-delay="0.3s" href="https://grabgetgo.com/#contact" role="button">Get Started &nbsp;<i className="fa fa-angle-right"></i></a>
                             </div>
@@ -284,8 +288,8 @@ export default function GrabGetGo() {
                                 </div>
 
                                 <div className="col-6 col-md-4 text-center p-3">
-                                    <div className="abbr"><span className="vollkornreg">Mn</span></div>
-                                    <div className="name"><span className="vollkornreg">MNIZ Fahad</span></div>
+                                    <div className="abbr"><span className="vollkornreg">Ke</span></div>
+                                    <div className="name"><span className="vollkornreg">Kester Woodie</span></div>
                                     <div className="role"><span className="dosismedium">Cheif Technical Officer</span></div>
                                 </div>
 
@@ -541,7 +545,7 @@ export default function GrabGetGo() {
             </div>
             
             <div className="copyright-text">
-                <p>&copy; 2021 GrabGetGo.</p> 
+                <p>&copy; {new Date().getFullYear()} GrabGetGo.</p> 
                 <p>All rights reserved.</p>
             </div>
 
