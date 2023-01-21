@@ -748,8 +748,9 @@ p {
  }
 
 .exp-moto span{
+    position: absolute;
     animation-name: textslider-crossfade;
-    opacity: .2;
+    opacity: 0;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 12s;
@@ -772,10 +773,10 @@ p {
       opacity:1;
     }
     25% {
-      opacity:0.2;
+      opacity:0;
     }
     92% {
-      opacity:0.2;
+      opacity:0;
     }
     100% {
       opacity:1;
