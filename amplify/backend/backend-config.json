@@ -8,7 +8,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "foodFunc"
+          "resourceName": "foodfunction"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -16,7 +16,7 @@
     }
   },
   "function": {
-    "foodFunc": {
+    "foodfunction": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
@@ -30,19 +30,19 @@
     }
   },
   "parameters": {
-    "AMPLIFY_function_foodFunc_deploymentBucketName": {
+    "AMPLIFY_function_foodfunction_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "foodFunc"
+          "resourceName": "foodfunction"
         }
       ]
     },
-    "AMPLIFY_function_foodFunc_s3Key": {
+    "AMPLIFY_function_foodfunction_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "foodFunc"
+          "resourceName": "foodfunction"
         }
       ]
     },

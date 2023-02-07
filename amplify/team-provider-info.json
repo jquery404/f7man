@@ -12,20 +12,20 @@
       "AmplifyAppId": "d3k4xctc06xt7i"
     },
     "categories": {
-      "function": {
-        "foodFunc": {
-          "deploymentBucketName": "amplify-f7man-dev-60200-deployment",
-          "s3Key": "amplify-builds/foodFunc-504b676766436b5a4c4e-build.zip"
-        }
-      },
-      "api": {
-        "foodapi": {}
-      },
       "hosting": {
         "amplifyhosting": {
           "appId": "d3k4xctc06xt7i",
           "type": "cicd"
         }
+      },
+      "function": {
+        "foodfunction": {
+          "deploymentBucketName": "amplify-f7man-dev-60200-deployment",
+          "s3Key": "amplify-builds/foodfunction-44367358667257755157-build.zip"
+        }
+      },
+      "api": {
+        "foodapi": {}
       }
     }
   }

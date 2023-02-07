@@ -12,7 +12,7 @@ function Backend() {
     }, []);
 
     async function fetchItem() {
-      API.get('foodapi', '/items')
+      API.get('foodapi', '/categories')
         .then(response => {
           setMyItem(response.success);
         })

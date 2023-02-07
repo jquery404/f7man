@@ -1,9 +1,9 @@
 {
   "version": 1,
   "paths": {
-    "/items": {
-      "name": "/items",
-      "lambdaFunction": "foodFunc",
+    "/categories": {
+      "name": "/categories",
+      "lambdaFunction": "foodfunction",
       "permissions": {
         "setting": "open"
       }
