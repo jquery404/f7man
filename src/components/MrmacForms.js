@@ -6,6 +6,14 @@ export default function MrmacForm() {
     const [iframeSrc, setIframeSrc] = useState(demo);
     const [currentBtn, setCurrentBtn] = useState(1);
 
+    var styles = {
+        navBar: {
+          margin: 0,
+          fontSize: '.85rem',
+          fontWeight: 700,
+        },
+    };
+
     const gotoPage = (id) => {
         setCurrentBtn(id);
         if(id === 1) setIframeSrc("https://docs.google.com/forms/d/e/1FAIpQLSfQ1v_aEae06UsF-dBHZaFw7dScsaKMShl-zHxP7IVSOOBDPg/viewform?embedded=true");
@@ -21,11 +29,18 @@ export default function MrmacForm() {
     <div className="container-fluid p-5">
         <div className="row">
             <div className="col-2">
+                <p style={styles.navBar}>Section 1</p>
                 <button onClick={()=> gotoPage(1)} type="button" className={`btn btn-sm nav-link ${'a_' + currentBtn === 'a_1' ? 'btn-primary' : 'btn-default'} my-1 `}>Demo</button>
                 <button onClick={()=> gotoPage(2)} type="button" className={`btn btn-sm nav-link ${'a_' + currentBtn === 'a_2' ? 'btn-primary' : 'btn-default'} my-1 a_2`}>Pre.SSQ</button>
+                <hr/>
+                
+                <p style={styles.navBar}>Section 2</p>
                 <button onClick={()=> gotoPage(3)} type="button" className={`btn btn-sm nav-link ${'a_' + currentBtn === 'a_3' ? 'btn-primary' : 'btn-default'} my-1 a_3`}>MRMAC</button>
                 <button onClick={()=> gotoPage(4)} type="button" className={`btn btn-sm nav-link ${'a_' + currentBtn === 'a_4' ? 'btn-primary' : 'btn-default'} my-1 a_4`}>TLX</button>
                 <button onClick={()=> gotoPage(5)} type="button" className={`btn btn-sm nav-link ${'a_' + currentBtn === 'a_5' ? 'btn-primary' : 'btn-default'} my-1 a_5`}>Post.SSQ</button>
+                
+                <hr/>
+                <p style={styles.navBar}>Section 3</p>
                 <button onClick={()=> gotoPage(6)} type="button" className={`btn btn-sm nav-link ${'a_' + currentBtn === 'a_6' ? 'btn-primary' : 'btn-default'} my-1 a_6`}>Pref.</button>
             </div>
             <div className="col=8">
