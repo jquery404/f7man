@@ -43,7 +43,7 @@ export default function MrmacForm() {
                 <p style={styles.navBar}>Section 3</p>
                 <button onClick={()=> gotoPage(6)} type="button" className={`btn btn-sm nav-link ${'a_' + currentBtn === 'a_6' ? 'btn-primary' : 'btn-default'} my-1 a_6`}>Pref.</button>
             </div>
-            <div className="col=8">
+            <div className="col-8">
                 <iframe src={iframeSrc} width="640" height="800" frameBorder="0" title="iframe" marginHeight="0" marginWidth="0">Loading…</iframe>
             </div>
         </div>
